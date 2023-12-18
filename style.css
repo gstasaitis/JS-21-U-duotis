@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    align-items: center;
+    color: black;
+}
+
+div.navbar button{
+    align-items: center;
+    width: 250px;
+    text-decoration: none;
+
+}
+
+div.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    width: auto;
+    padding: 10px;
+    margin: 10px;
+}
+
+img { 
+    width: 300px;
+}
+
+div.form {
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 90%;
+}
+
+section h1 {
+    padding: 10px 0px;
+}
+
+section button {
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: gray;
+    font-weight: bold;
+}
+
+input{
+    min-width: 350px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+h3 {
+    color: red;
+}
+
+button {
+    padding: 5px;
+    background: none;
+    border: 1px solid rgb(178, 178, 178);
+    width: 70px;
+    margin-top: 5px;
+    transition: .2s;
+}
+button:hover {
+    background: rgb(168, 168, 168);
+    cursor: pointer;
+}
